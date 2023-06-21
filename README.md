@@ -27,35 +27,20 @@ In order to increase the speed of 3C product transaction, online shopping system
 
 # Introduction
 Step.01  Enter the welcome page for the Online 3C Transaction System
-
-![](C:\htdocs\finalproject\images\introduction\image01.png)
-
-
+<img src=".\images\introduction\image01.png" width="80%"> 
 
 **[Seller]**
-
 Step.02	Click up **Seller** button, enter the seller login page. If you are not a seller yet, please sign up first.
-
-![](C:\htdocs\finalproject\images\introduction\image02.png)
-
-
+<img src=".\images\introduction\image02.png" width="80%">
 
 Step.03	Sign up for a new seller and fill in some personal information.
-
-![](C:\htdocs\finalproject\images\introduction\image03.png)
-
-
+<img src=".\images\introduction\image03.png" width="80%">
 
 Step.04	After sending out the request, you can login with your new account.
-
-![](C:\htdocs\finalproject\images\introduction\image04.png)
-
-
+<img src=".\images\introduction\image04.png" width="80%">
 
 Step.05	After login into the seller interface, we can start adding products to sell.
-
-![](C:\htdocs\finalproject\images\introduction\image05.png)
-
+<img src=".\images\introduction\image05.png" width="80%">
 If we want to login as a shopper, we have to logout our seller account first.
 
 
@@ -63,79 +48,47 @@ If we want to login as a shopper, we have to logout our seller account first.
 **[Shopper]**
 
 Step.06	Go back to the welcome page, and click the **Shopper** button. You can enter the shopper login page. If you are not a shopper yet, please sign up first.
-
-![](C:\htdocs\finalproject\images\introduction\image06.png)
-
-
+<img src=".\images\introduction\image06.png" width="80%">
 
 Step.07	Sign up for a new shopper and fill in some personal information.
-
-![](C:\htdocs\finalproject\images\introduction\image07.png)
-
-
+<img src=".\images\introduction\image07.png" width="80%">
 
 Step.08	After sending out the request, you can login with your new account.
-
-![](C:\htdocs\finalproject\images\introduction\image08.png)
-
-
+<img src=".\images\introduction\image08.png" width="80%">
 
 Step.09	After login into the shopper interface, we can check the selling products. The product we added before would also show up.
-
-![](C:\htdocs\finalproject\images\introduction\image09.png)
+<img src=".\images\introduction\image09.png" width="80%">
 
 In this page, we can check out the products using the features for searching in left two block, which includes:
-
 - Search products using key words
 - Search products using price range
 - Search products using product category
 
-
-
 Step.10	Let's check our the product detail and add a new product in our shopping cart.
-
-![](C:\htdocs\finalproject\images\introduction\image10.png)
-
-![](C:\htdocs\finalproject\images\introduction\image11.png)
-
+<img src=".\images\introduction\image10.png" width="80%">
+<img src=".\images\introduction\image11.png" width="80%">
 We can always check the products and manage our shopping cart before checkout:
-
-![](C:\htdocs\finalproject\images\introduction\image12.png)
-
-
+<img src=".\images\introduction\image12.png" width="80%">
 
 Step.11	After confirming the order, we can send out our order with our shipping information.
-
-![](C:\htdocs\finalproject\images\introduction\image13.png)
-
-
+<img src=".\images\introduction\image13.png" width="80%">
 
 Step.12	Email Received.
-
-![](C:\htdocs\finalproject\images\introduction\image14.png)
-
-
+<img src=".\images\introduction\image14.png" width="80%">
 
 # Try to build up the system yourself
-
 ## 0. Initial Download  
-
 - Official XAMPP (https://www.apachefriends.org/download.html)
 - Download my GitHub codes (https://github.com/Jui-Yun/Shopping_Cart)
 
-
-
 ## 1. Setup MySQL Database
-
 1. Go to the `/Shopping_Cart-main` folder, find the `finalproject.sql file`. Load the file into MySQL database as follows.
-
-   ![](C:\htdocs\finalproject\images\introduction\image15.png)
+   <img src=".\images\introduction\image15.png" width="80%">
 
    
 
 2. Open the `/Shopping_Cart-main/connMysql.php` file, replace the `/* your database password */` comment and fill in with your database password.
-
-   ![](C:\htdocs\finalproject\images\introduction\image16.png)
+   <img src=".\images\introduction\image16.png" width="80%">
 
 3. Open a browser and type in the URL http://localhost/finalproject/welcomepage.php, then you will receive the system.
 
@@ -144,6 +97,5 @@ Step.12	Email Received.
 # Additional
 
 In order to activate the email sending feature, check the following references:
-
 - https://blog.pulipuli.info/2013/07/xampp.html
 - https://docs.bitnami.com/aws/apps/dolibarr/troubleshooting/send-mail/
