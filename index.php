@@ -71,7 +71,7 @@ function keepURL(){
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>網路購物系統</title>
+<title>3C平台交易系統</title>
 <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
