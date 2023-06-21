@@ -40,7 +40,9 @@ Step.04	After sending out the request, you can login with your new account.
 <img src=".\images\introduction\image04.png" width="80%">
 
 Step.05	After login into the seller interface, we can start adding products to sell.
+
 <img src=".\images\introduction\image05.png" width="80%">
+
 If we want to login as a shopper, we have to logout our seller account first.
 
 
@@ -48,6 +50,7 @@ If we want to login as a shopper, we have to logout our seller account first.
 **[Shopper]**
 
 Step.06	Go back to the welcome page, and click the **Shopper** button. You can enter the shopper login page. If you are not a shopper yet, please sign up first.
+
 <img src=".\images\introduction\image06.png" width="80%">
 
 Step.07	Sign up for a new shopper and fill in some personal information.
@@ -67,13 +70,16 @@ In this page, we can check out the products using the features for searching in 
 Step.10	Let's check our the product detail and add a new product in our shopping cart.
 <img src=".\images\introduction\image10.png" width="80%">
 <img src=".\images\introduction\image11.png" width="80%">
+
 We can always check the products and manage our shopping cart before checkout:
+
 <img src=".\images\introduction\image12.png" width="80%">
 
 Step.11	After confirming the order, we can send out our order with our shipping information.
 <img src=".\images\introduction\image13.png" width="80%">
 
 Step.12	Email Received.
+
 <img src=".\images\introduction\image14.png" width="80%">
 
 # Try to build up the system yourself
@@ -85,12 +91,11 @@ Step.12	Email Received.
 1. Go to the `/Shopping_Cart-main` folder, find the `finalproject.sql file`. Load the file into MySQL database as follows.
    <img src=".\images\introduction\image15.png" width="80%">
 
-   
-
 2. Open the `/Shopping_Cart-main/connMysql.php` file, replace the `/* your database password */` comment and fill in with your database password.
+   
    <img src=".\images\introduction\image16.png" width="80%">
 
-3. Open a browser and type in the URL http://localhost/finalproject/welcomepage.php, then you will receive the system.
+4. Open a browser and type in the URL http://localhost/finalproject/welcomepage.php, then you will receive the system.
 
 
 
