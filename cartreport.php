@@ -94,8 +94,8 @@ if(true){
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'juiyun2022@gmail.com';
-    $mail->Password = 'qihazdpsusvmighg';
+    $mail->Username = '/* Email Address */';
+    $mail->Password = '/* Password */';
     $mail->SMTPSecure = 'ssl';
     $mail->Port = 465;
 
@@ -125,7 +125,7 @@ msg;
 	// $mailSubject="=?UTF-8?B?" . base64_encode("網路購物系統訂單通知"). "?=";
 	// $mailHeader="From:".$mailFrom."\r\n";
 	// $mailHeader.="Content-type:text/html;charset=UTF-8";
-	$mail->setFrom('juiyun2022@gmail.com', 'Reena Tsai'); // 發件人
+	$mail->setFrom('/* Email Address */', '/* Email Sender */'); // 發件人
     $mail->addAddress("{$cmail}", "{$cname}"); // 收件人
     $mail->Subject = "=?UTF-8?B?" . base64_encode("網路購物系統訂單通知"). "?=";
     $mail->Body = $mailcontent;
